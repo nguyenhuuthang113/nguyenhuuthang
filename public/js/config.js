@@ -24,7 +24,7 @@ const __DATA__ = {
             'image' : 'wallet.png',
             'title' : 'Billing Information', 
             'show-value' : 'Nguyễn Hữu Thắng',
-            'value' : 'https://nguyenhuuthang113.github.io/huuthangbanking/',
+            'value' : 'http://banks.info-huuthang.xyz/',
             'type' : 0,
         },
         {
