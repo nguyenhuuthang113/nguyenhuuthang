@@ -24,7 +24,7 @@ const __DATA__ = {
             'image' : 'wallet.png',
             'title' : 'Billing Information', 
             'show-value' : 'Nguyễn Hữu Thắng',
-            'value' : 'http://banks.info-huuthang.xyz/',
+            'value' : 'https://chanlemomo.store/',
             'type' : 0,
         },
         {
