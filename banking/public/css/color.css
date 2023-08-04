@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #cea469;
+    --secondary-color: #231f20;
+    --dark-color: #cea469;
+}
+.modal {
+    --header-color: #050505;
+    --body-color: #2A2A2A;
+}
