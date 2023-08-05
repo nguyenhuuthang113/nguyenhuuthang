@@ -21,6 +21,13 @@ const __DATA__ = {
     ],
     'links' : [
         {
+            'image' : 'logo.png',
+            'title' : 'ENCODE-PHP', 
+            'show-value' : 'ENCODE-PHP',
+            'value' : 'https://xn--huthng-sf8b7t.vn/encode-php',
+            'type' : 0,
+        },
+        {
             'image' : 'wallet.png',
             'title' : 'Billing Information', 
             'show-value' : 'Nguyễn Hữu Thắng',
