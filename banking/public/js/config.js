@@ -25,6 +25,14 @@ const USER = {
             number: "04219836801",
             owner: "Nguyễn Hữu Thắng"
         },
+
+        {
+            name: "TP BANK",
+            logo: "mbbank.png",
+            number: "04219836666",
+            owner: "Nguyễn Hữu Thắng"
+        },
+        
         {
             name: "MOMO",
             logo: "momo.png",
