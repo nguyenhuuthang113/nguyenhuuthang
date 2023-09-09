@@ -1,0 +1,105 @@
+/* CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Sử dụng font chữ thay đổi */
+    background-color: #f3f1f1; /* Màu nền */
+}
+
+.banner {
+    background-color: #eeead9; /* Màu nền của banner */
+    text-align: center;
+    padding: 5px; /* Điều chỉnh padding theo ý muốn */
+}
+
+.banner img {
+    width: 100%;
+    max-height: 350px; /* Điều chỉnh kích thước tối đa của hình ảnh */
+    border-radius: 5px; /* Làm tròn các góc */
+    box-shadow: 0px 0px 10px rgba(177, 35, 35, 0.1); /* Hiệu ứng bóng đổ */
+}
+
+.menu {
+    background-color: #b8d8f8; /* Màu nền của menu */
+    text-align: center;
+    padding: 10px; /* Điều chỉnh padding theo ý muốn */
+}
+
+.menu a{
+    margin: 0 20px; /* Điều chỉnh khoảng cách giữa các liên kết */
+    color: #000000; /* Màu chữ của liên kết */
+    text-decoration: none;
+    transition: color 0.5s; /* Hiệu ứng màu chữ khi hover */
+}
+
+
+
+/* icon mxh */
+.social-icons {
+    float: right; /* Icon MXH nằm bên phải */
+}
+.menu a.icon_mxh {
+    margin: 10px; 
+    padding: 0;/*tạo khung xung quanh vật đó */
+    text-align: right;
+}
+.menu a.icon_mxh:hover {
+    font-size: 150%;
+}
+
+/* hiệu ứng di chuột vào */
+.menu a:hover {
+    color: #e74c3c; /* Màu chữ khi hover */
+}
+
+.row {
+    clear: both;
+    text-align: center; /* Canh giữa nội dung trong các cột */
+}
+.row::after{ /*phần tử giả lúc này luôn luôn là element con cuối cùng*/
+    content: " ";
+    display: table; /*cho phép bạn xác định sự xuất hiện của các phần tử trang một cách khác đi so với cài đặt mặc định của chúng*/
+    clear: both; /*ngăn chặn sự chiếm vùng không gian cả khi chỉ có một thành phần sử dụng float (left hoặc right) hoặc nhiều thành phần sử dụng float */
+}
+
+.column {
+    display: inline-block;
+    margin: 10px; /* Điều chỉnh khoảng cách giữa các cột */
+    border: 1px solid #dcdcdc; /* Màu và độ dày của viền */
+    padding: 10px; /* Điều chỉnh padding theo ý muốn */
+    background-color: #ffffff; /* Màu nền của các cột */
+    text-align: center; /* Canh giữa nội dung trong cột */
+    box-shadow: 0px 0px 10px rgba(177, 35, 35, 0.1); /* Hiệu ứng bóng đổ */
+    border-radius: 5px; /* Làm tròn các góc */
+}
+.column img{
+    border-radius: 5px; /* Làm tròn các góc */
+    height: 600px;
+    width: 600px;
+}
+
+/* xuống dòng văn bản tự động ở home */
+.text-container {
+    width: 600px; /* Chiều rộng ảnh */
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+/* CSS cho nút bấm */
+.wp-block-button__link.is-style-outline.has-red-color {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #ff0000;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ff0000;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.wp-block-button__link.is-style-outline.has-red-color:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+

@@ -1,0 +1,86 @@
+body{
+    margin: 0px; /*tạo khung khoảng cách (phần tử con với nhau)*/
+    background-color: beige;
+    padding-bottom: 60px; /* Đảm bảo footer không che phủ nội dung chính */
+}
+
+.banner{
+    background-color: azure;
+    text-align: center; /*canh lề theo chiều ngang cho văn bản bên trong phần tử */
+    padding: 5px; /*khoảng cách tới khung chứa nó (thẻ mẹ vs thẻ con)  */
+}
+.banner img{
+    width: 100%;
+    height: 350px;
+}
+
+.menu{
+    background-color: rgb(202, 201, 201);
+    float: center;
+    padding: 5px;
+}
+.menu nav{
+    text-align: center;
+    float: center;
+}
+.menu a{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover{
+    /* background-color: rgb(228, 240, 250); */
+    color: red;
+    font-weight: bold;
+    font-size: 160%;
+}
+
+.row {
+    clear: both;
+}
+.row::after{ /*phần tử giả lúc này luôn luôn là element con cuối cùng*/
+    content: " ";
+    display: table; /*cho phép bạn xác định sự xuất hiện của các phần tử trang một cách khác đi so với cài đặt mặc định của chúng*/
+    clear: both; /*ngăn chặn sự chiếm vùng không gian cả khi chỉ có một thành phần sử dụng float (left hoặc right) hoặc nhiều thành phần sử dụng float */
+}
+.row img{
+    height: 600px;
+    width: 600px;
+}
+.column{
+    /* float: left; */
+    /* text-align: left; */
+    display: inline-block; /* Thay đổi display thành inline-block */
+    margin: 5px; /* Tạo khoảng cách giữa các cột */
+    border: 1px solid #000; /* Thêm khung cho mỗi cột*/
+    padding: 5px; /* Tạo khoảng cách bên trong khung */
+    box-sizing: border-box; /*Đảm bảo padding không làm tăng kích thước tổng của cột */
+    background: rgb(250, 231, 196); 
+}
+
+/* .overflow-container {
+    white-space: nowrap; /* Ngăn văn bản tự động xuống hàng */
+    /* overflow-x: auto; Hiển thị thanh cuộn ngang nếu cần */
+    /* width: 100%; Đảm bảo phần tử chứa văn bản rộng 100% */
+/* } */
+.text-container {
+    width: 590px; /* Đảm bảo phần tử chứa văn bản rộng 100% */
+    display: inline-block; /* Đảm bảo khung bao quanh nội dung */
+    word-wrap: break-word; /* Tự động ngắt từ khi chiều dài vượt quá hình ảnh */
+}
+
+
+.wp-block-button__link.is-style-outline.has-red-color {
+    display: inline-block;
+    padding: 7px 7px; /* Điều chỉnh padding theo ý muốn */
+    border: 1px solid #ff0000; /* Màu viền đỏ (#ff0000) */
+    border-radius: 20px; /* 50% Tạo viền tròn */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+    color: #ff0000; /* Màu chữ đỏ (#ff0000) */
+    text-align: center;
+}
+
+.wp-block-button__link.is-style-outline.has-red-color:hover {
+    background-color: #ff0000; /* Màu nền khi hover */
+    color: #ffffff; /* Màu chữ trắng khi hover */
+}

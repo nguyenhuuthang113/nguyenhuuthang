@@ -1,0 +1,46 @@
+/* CSS cho footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b8d8f8; /* Màu nền của footer */
+    color: #ecf0f1; /* Màu chữ của footer */
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+footer img{
+    width: 200px;
+    height: 100px;
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateY(0);
+        color: red;
+    }
+    50% {
+        transform: translateY(-10px);
+        color: green;
+    }
+    100% {
+        transform: translateY(0);
+        color: blue;
+    }
+}
+.animated-text {
+    display: inline-block;
+    animation: waveAnimation 1s infinite;
+}
+
+@keyframes colorChange {
+    10% { color: red; }
+    25% { color: green; }
+    35% {color: slateblue}
+    50% { color: blue; }
+    75% { color: purple; }
+    100% { color: orange; }
+}
+.animated-texttitle {
+    display: inline-block;
+    animation: colorChange 3s infinite;
+} /*màu chữ */

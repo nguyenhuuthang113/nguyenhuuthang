@@ -1,0 +1,127 @@
+/* thẻ card lớn */
+.card{
+    border: 3px solid #4498f8;
+    padding: 5px; /*khoảng cách bên trong thẻ*/
+    margin: 5px 35%; /*khoảng cách xung quanh thẻ bên ngoài - 0 auto để đưa ra giữa trang*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fcefb8;
+    border-radius: 5px;
+    text-align: center; /* Căn giữa nội dung bên trong thẻ card */
+    display: inline-block; /*đặt thẻ card để hiển thị như một phần tử inline-block, cho phép nó xuất hiện cạnh nhau theo chiều ngang.*/
+    width: 30%; /* Điều chỉnh kích thước của thẻ card tùy theo nhu cầu */
+    /* chiều rộng 50% màn -> còn 50% mỗi bên dư 25% -> margin để 25% */
+}
+/* ảnh bìa  */
+.cover-photo img{
+    width: 100%;
+    height: 20%;
+    border-radius: 5px;
+    border: 1px solid #4498f8;
+}
+/* avt */
+.avatar img {
+    width: 30%; /* Điều chỉnh kích thước avatar */
+    height: 30%; /* Điều chỉnh kích thước avatar */
+    border-radius: 50%; /* Tạo hình tròn cho avatar */
+    border: 5px solid #4498f8;
+    position: relative; /* Cho phần tử avatar đặt vị trí tương đối */
+    top: -50px; /* Đẩy avatar lên để nằm ngay giữa cạnh dưới của ảnh bìa */
+}
+/* tên */
+.name-contact p{
+    /* float: center; */
+    position: relative; /* Cho phần tử avatar đặt vị trí tương đối */
+    top: -50px;
+    font-size: 150%;
+    font-family: cursive;
+}
+
+/* thẻ info */
+.info{
+    border: 2px solid #4498f8;
+    background-color: #f7f0b4;
+    margin: 15px 1px;
+    padding: 1px; /*padding là 1px */
+    height: 60px; 
+    border-radius: 5px;
+    box-shadow: 3px 9px 8px #fa8f8f;
+    text-align: left; /* Căn giữa nội dung bên trong thẻ card */
+
+    position: relative; /* Cho phần tử avatar đặt vị trí tương đối  mới dùng top dc*/
+    top: -40px;
+
+    display: flex; /* Sử dụng flexbox để sắp xếp các phần tử bên trong theo hàng ngang */
+}
+.info:hover{
+    background-color: rgb(192, 247, 229);
+}
+
+/* ảnh fb, zalo thông tin */
+.info img{
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 5px; /* Khoảng cách giữa hình ảnh và nội dung bên phải */
+}
+/* thông tin chữ */
+.info1 p{
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử con theo cột */
+
+    position: relative; /* Cho phần tử avatar đặt vị trí tương đối  mới dùng top dc*/
+    top: -10px;
+    white-space: nowrap;
+}
+.info1 a.p1{
+    color: #080808; /* Màu cho p1 */
+    text-decoration: underline;
+}
+.info1 a.p1:hover{
+    color: #f55235;
+}
+.info1 a.p2{
+    color: #001aff; /* Màu cho p2 */
+    text-decoration: none;
+}
+.info1 a.p2:hover{
+    color: #f55235;
+}
+/* button open*/
+
+.open{
+    margin-left: auto; /* Để nút button tự động dịch sang phải cùng */
+    display: flex;
+    align-items: top; /*nằm trên cùng */
+    position: relative; /* Cho phần tử avatar đặt vị trí tương đối  mới dùng top dc*/
+}
+.open a.button{
+   cursor: pointer;
+   border: 5px;
+   cursor: pointer;
+   border-radius: 3px;
+}
+.open button:hover{
+    background-color: #c6def8;
+    border-radius: 3px;
+}
+
+
+
+
+/* button */
+.contact-buttons {
+    text-align: right;
+    padding: 10px;
+}
+
+.contact-buttons a.button {
+    border: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer; /*kiểu con trỏ chuột */
+    border-radius: 3px;
+}
+
+.contact-buttons button:hover {
+    background-color: #c6def8;
+    border-radius: 3px;
+}

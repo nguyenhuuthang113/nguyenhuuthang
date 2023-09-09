@@ -1,0 +1,58 @@
+.about {
+    padding: 20px; /* khoảng cách tới thanh menu */
+    background-color: #f3f1f1;
+    text-align: center;
+}
+
+.about-header {
+    margin-bottom: 20px;
+}
+
+.about-header h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.about-header p {
+    font-size: 30px;
+    color: #777;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /*dùng để điều chỉnh việc bọc các item nằm trong container*/
+}
+
+.about-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /*được sử dụng để chỉ định cách thay đổi kích thước của <img> hoặc <video> để phù hợp với vùng chứa của nó*/
+    border: 2px solid #333;
+}
+
+.about-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.about-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+.about-item {
+    margin: 20px;
+    text-align: center;
+    flex: 0 0 calc(33.33% - 40px); /* 33.33% làm cho 3 cột trên một hàng */
+    max-width: calc(33.33% - 40px); /* 33.33% làm cho 3 cột trên một hàng */
+}
+
+.about-description {
+    margin-top: 30px;
+    text-align: center;
+    clear: both; /* Đảm bảo xuống hàng dưới */
+}
