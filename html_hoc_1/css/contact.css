@@ -2,13 +2,13 @@
 .card{
     border: 3px solid #4498f8;
     padding: 5px; /*khoảng cách bên trong thẻ*/
-    margin: 5px 35%; /*khoảng cách xung quanh thẻ bên ngoài - 0 auto để đưa ra giữa trang*/
+    margin: 5px 30%; /*khoảng cách xung quanh thẻ bên ngoài - 0 auto để đưa ra giữa trang*/
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fcefb8;
     border-radius: 5px;
     text-align: center; /* Căn giữa nội dung bên trong thẻ card */
     display: inline-block; /*đặt thẻ card để hiển thị như một phần tử inline-block, cho phép nó xuất hiện cạnh nhau theo chiều ngang.*/
-    width: 30%; /* Điều chỉnh kích thước của thẻ card tùy theo nhu cầu */
+    width: 40%; /* Điều chỉnh kích thước của thẻ card tùy theo nhu cầu */
     /* chiều rộng 50% màn -> còn 50% mỗi bên dư 25% -> margin để 25% */
 }
 /* ảnh bìa  */
@@ -26,6 +26,7 @@
     border: 5px solid #4498f8;
     position: relative; /* Cho phần tử avatar đặt vị trí tương đối */
     top: -50px; /* Đẩy avatar lên để nằm ngay giữa cạnh dưới của ảnh bìa */
+    
 }
 /* tên */
 .name-contact p{
@@ -38,6 +39,7 @@
 
 /* thẻ info */
 .info{
+    font-family: cursive;
     border: 2px solid #4498f8;
     background-color: #f7f0b4;
     margin: 15px 1px;
@@ -81,6 +83,8 @@
 .info1 a.p2{
     color: #001aff; /* Màu cho p2 */
     text-decoration: none;
+    position: relative; /* Cho phần tử avatar đặt vị trí tương đối */
+    top: -10px;
 }
 .info1 a.p2:hover{
     color: #f55235;
