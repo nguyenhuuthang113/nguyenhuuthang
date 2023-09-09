@@ -25,7 +25,7 @@ body {
     padding: 10px; /* Điều chỉnh padding theo ý muốn */
 }
 
-.menu a{
+.menu1 a{
     margin: 0 20px; /* Điều chỉnh khoảng cách giữa các liên kết */
     color: #000000; /* Màu chữ của liên kết */
     text-decoration: none;
@@ -42,6 +42,8 @@ body {
     margin: 10px; 
     padding: 0;/*tạo khung xung quanh vật đó */
     text-align: right;
+    position: relative; /* Cho phần tử avatar đặt vị trí tương đối  mới dùng top dc*/
+    top: -16px;
 }
 .menu a.icon_mxh:hover {
     font-size: 150%;
